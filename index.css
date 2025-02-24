@@ -1,0 +1,60 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: .5rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+.user-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-controls img {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+main {
+    aspect-ratio: 5/3;
+    border: 1px solid red;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.fa-star {
+    color: red;
+}
+
+
+main .movie-statistics {
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+}
+main .age-rating {
+    border: 1px solid black;
+    border-radius: .25rem;
+    padding: .2rem;
+}
+
+.movie-description {
+    width: 60%;
+}
